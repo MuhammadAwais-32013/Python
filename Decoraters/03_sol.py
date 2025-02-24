@@ -23,4 +23,18 @@ def call_DB(a,b):
     return a + b
 print(call_DB(2,3))
 print(call_DB(2,3))
-print(call_DB(3,3))
+# print(call_DB(3,3))
+
+@cache
+def call_DB1(*args):
+    # print("Data Fetching from DB")
+    time.sleep(3)
+    sum=0
+    for val in args:
+        sum+=val
+    time.sleep(4)
+    # print("Data is Fetched")
+    return sum
+
+print(call_DB1(2,3))
+print(call_DB1(2,3))
