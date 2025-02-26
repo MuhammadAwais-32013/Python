@@ -1,0 +1,1 @@
+[{"name": "pushpa ", "duration": "120 mins", "language": "hindi"}, {"name": "Django", "duration": "60 mins", "language": " English"}, {"name": "Time Machine", "duration": "4 Hours", "language": "German"}]
